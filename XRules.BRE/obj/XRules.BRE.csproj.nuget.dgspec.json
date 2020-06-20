@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/geoff/Projects/XRules/XRules.BRE/XRules.BRE.csproj": {}
+  },
+  "projects": {
+    "/home/geoff/Projects/XRules/XRules.BRE/XRules.BRE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/geoff/Projects/XRules/XRules.BRE/XRules.BRE.csproj",
+        "projectName": "XRules.BRE",
+        "projectPath": "/home/geoff/Projects/XRules/XRules.BRE/XRules.BRE.csproj",
+        "packagesPath": "/home/geoff/.nuget/packages/",
+        "outputPath": "/home/geoff/Projects/XRules/XRules.BRE/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/geoff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/geoff/Projects/ghs-sds-new/Shared/GHSSDSNEW.Shared.csproj": {
+                "projectPath": "/home/geoff/Projects/ghs-sds-new/Shared/GHSSDSNEW.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NRules": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            },
+            "NRules.Fluent": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            },
+            "NRules.RuleModel": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            },
+            "NRules.Runtime": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/geoff/Projects/ghs-sds-new/Shared/GHSSDSNEW.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/geoff/Projects/ghs-sds-new/Shared/GHSSDSNEW.Shared.csproj",
+        "projectName": "GHSSDSNEW.Shared",
+        "projectPath": "/home/geoff/Projects/ghs-sds-new/Shared/GHSSDSNEW.Shared.csproj",
+        "packagesPath": "/home/geoff/.nuget/packages/",
+        "outputPath": "/home/geoff/Projects/ghs-sds-new/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/geoff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

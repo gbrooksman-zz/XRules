@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4CFwLek5zfOkuMsQI2UHonKNoeuV/qsvYLjN55n70gotlz2qFgu33gtjGFtqeTvHrmgrmfU+GJEjwH06P3KN0Q==",
+  "success": true,
+  "projectFilePath": "/home/geoff/Projects/XRules/XRules.Actions/XRules.Actions.csproj",
+  "expectedPackageFiles": [
+    "/home/geoff/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/geoff/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

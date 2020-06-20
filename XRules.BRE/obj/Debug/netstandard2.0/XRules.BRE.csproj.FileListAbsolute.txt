@@ -1,0 +1,9 @@
+/home/geoff/Projects/XRules/XRules.BRE/bin/Debug/netstandard2.0/XRules.BRE.deps.json
+/home/geoff/Projects/XRules/XRules.BRE/bin/Debug/netstandard2.0/XRules.BRE.dll
+/home/geoff/Projects/XRules/XRules.BRE/bin/Debug/netstandard2.0/XRules.BRE.pdb
+/home/geoff/Projects/XRules/XRules.BRE/obj/Debug/netstandard2.0/XRules.BRE.csprojAssemblyReference.cache
+/home/geoff/Projects/XRules/XRules.BRE/obj/Debug/netstandard2.0/XRules.BRE.csproj.CoreCompileInputs.cache
+/home/geoff/Projects/XRules/XRules.BRE/obj/Debug/netstandard2.0/XRules.BRE.AssemblyInfoInputs.cache
+/home/geoff/Projects/XRules/XRules.BRE/obj/Debug/netstandard2.0/XRules.BRE.AssemblyInfo.cs
+/home/geoff/Projects/XRules/XRules.BRE/obj/Debug/netstandard2.0/XRules.BRE.dll
+/home/geoff/Projects/XRules/XRules.BRE/obj/Debug/netstandard2.0/XRules.BRE.pdb
