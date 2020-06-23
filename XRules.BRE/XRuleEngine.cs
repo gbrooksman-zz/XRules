@@ -1,5 +1,8 @@
 ﻿using System;
-
+using System.IO;
+using System.Text.Json;
+using GHSSDSNEW.Shared.Entities;
+using GHSSDSNEW.Shared.Entities.Documents;
 
 namespace XRules.BRE
 {
@@ -21,8 +24,31 @@ namespace XRules.BRE
 			return true;
 		}
 
-		public void Run()
+		public string Run()
 		{
+
+			JsonSerializerOptions options = new JsonSerializerOptions()
+			{
+				PropertyNameCaseInsensitive = true,
+				IgnoreNullValues = true
+			};
+
+
+			string content = File.ReadAllText("test.json");
+
+			Document toDocument = new Document()
+			{
+				Id = Guid.NewGuid(),
+				SDSId = "PS2003",
+				SDSName = "PS2003 Name",
+				UserId = Guid.NewGuid(),
+				OrganizationId = Guid.NewGuid(),
+				SDS = JsonSerializer.Deserialize<SDS>(content, options)
+			};
+
+
+
+			return "true";
 
 		}
 

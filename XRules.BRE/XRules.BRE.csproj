@@ -3,10 +3,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NRules" Version="0.9.0"/>
-    <PackageReference Include="NRules.Fluent" Version="0.9.0"/>
-    <PackageReference Include="NRules.RuleModel" Version="0.9.0"/>
-    <PackageReference Include="NRules.Runtime" Version="0.9.0"/>
-	<ProjectReference Include="..\..\ghs-sds-new\Shared\GHSSDSNEW.Shared.csproj" />
+    <PackageReference Include="NRules" Version="0.9.0" />
+    <PackageReference Include="NRules.Fluent" Version="0.9.0" />
+    <PackageReference Include="NRules.RuleModel" Version="0.9.0" />
+    <PackageReference Include="NRules.Runtime" Version="0.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ghs-sds-new2\Shared\GHSSDSNEW.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

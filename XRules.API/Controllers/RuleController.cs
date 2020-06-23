@@ -15,11 +15,11 @@ namespace XRules.API.Controllers
 
 		[HttpGet]
 		[Route("Run")]
-		public ActionResult<string> Run( [FromBody] string document, string assemblyName)
+		public ActionResult<string> Run()
         {
 			XRuleEngine xre = new XRuleEngine();
 
-			var x = xre.TestIt();
+			var x = xre.Run();
 
 			return Ok(x.ToString());
 		}
