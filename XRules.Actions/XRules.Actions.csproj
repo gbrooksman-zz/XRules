@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\..\ghs-sds-new2\Shared\GHSSDSNEW.Shared.csproj" />
+	</ItemGroup>
+
 </Project>

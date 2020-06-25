@@ -10,6 +10,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ghs-sds-new2\Shared\GHSSDSNEW.Shared.csproj" />
+    <ProjectReference Include="..\GHSSDSNEW.Rules\GHSSDSNEW.Rules.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="test.json">
